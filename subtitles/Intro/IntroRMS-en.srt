@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:04,054
+Hi!  I'm Richard Stallman, leader of the Free Software Movement
+
+2
+00:00:04,154 --> 00:00:06,870
+and founder of the GNU project
+
+3
+00:00:06,970 --> 00:00:10,501
+which developed the free software operating system GNU
+
+4
+00:00:10,601 --> 00:00:15,660
+Welcome to this course "The Road to the Free Digital Society"
+
+5
+00:00:15,882 --> 00:00:20,353
+In this course we will cover issues of human rights
+
+6
+00:00:20,453 --> 00:00:26,529
+that arise from computing. We will talk about threats to the Free Digital Society
+
+7
+00:00:26,629 --> 00:00:30,275
+Will explain what Free Software means
+
+8
+00:00:30,375 --> 00:00:36,085
+and what makes a program free and how you make your programs free
+
+9
+00:00:36,185 --> 00:00:39,946
+We will talk about copyright law
+
+10
+00:00:40,046 --> 00:00:43,293
+and copyleft which is based on it
+
+11
+00:00:43,866 --> 00:00:50,176
+We'll talk about how these freedom issues do or don't apply to other kinds of digital works
+
+12
+00:00:50,276 --> 00:00:51,715
+besides software
+
+13
+00:00:51,815 --> 00:01:00,522
+We will recognize some of the propaganda used  by the opponents of digital freedom
+
+14
+00:01:00,622 --> 00:01:03,313
+and how to avoid repeating it
+
+15
+00:01:03,413 --> 00:01:07,464
+And we will talk about some of the thin changes
+
+16
+00:01:07,564 --> 00:01:11,565
+we need to make (some of us) in our own lifestyles
+
+17
+00:01:11,665 --> 00:01:17,218
+so that we recover some of the digital freedom that many have lost
+
+18
+00:01:17,318 --> 00:01:23,495
+Happy hacking! And I hope this course will get you started on the path to freedom. 
+

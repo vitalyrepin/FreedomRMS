@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubtitleEditorProject version="1.0">
+  <player uri="file:///home/vit/work/RMS/subtitles/Intro/IntroRMS.ogv"/>
+  <waveform uri="file:///home/vit/work/RMS/subtitles/Intro/IntroRMS.wf"/>
+  <keyframes uri="file:///home/vit/work/RMS/subtitles/Intro/IntroRMS.kf"/>
+  <styles/>
+  <subtitles timing_mode="TIME" edit_timing_mode="TIME" framerate="25">
+    <subtitle duration="4054" effect="" end="4054" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="0" start="0" style="Default" text="Hi!  I'm Richard Stallman, leader of the Free Software Movement" translation=""/>
+    <subtitle duration="2716" effect="" end="6870" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="1" start="4154" style="Default" text="and founder of the GNU project" translation=""/>
+    <subtitle duration="3531" effect="" end="10501" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="2" start="6970" style="Default" text="which developed the free software operating system GNU" translation=""/>
+    <subtitle duration="5059" effect="" end="15660" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="3" start="10601" style="Default" text="Welcome to this course &quot;The Road to the Free Digital Society&quot;" translation=""/>
+    <subtitle duration="4471" effect="" end="20353" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="4" start="15882" style="Default" text="In this course we will cover issues of human rights" translation=""/>
+    <subtitle duration="6076" effect="" end="26529" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="5" start="20453" style="Default" text="that arise from computing. We will talk about threats to the Free Digital Society" translation=""/>
+    <subtitle duration="3646" effect="" end="30275" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="6" start="26629" style="Default" text="Will explain what Free Software means" translation=""/>
+    <subtitle duration="5710" effect="" end="36085" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="7" start="30375" style="Default" text="and what makes a program free and how you make your programs free" translation=""/>
+    <subtitle duration="3761" effect="" end="39946" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="8" start="36185" style="Default" text="We will talk about copyright law" translation=""/>
+    <subtitle duration="3247" effect="" end="43293" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="9" start="40046" style="Default" text="and copyleft which is based on it" translation=""/>
+    <subtitle duration="6310" effect="" end="50176" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="10" start="43866" style="Default" text="We'll talk about how these freedom issues do or don't apply to other kinds of digital works" translation=""/>
+    <subtitle duration="1439" effect="" end="51715" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="11" start="50276" style="Default" text="besides software" translation=""/>
+    <subtitle duration="8707" effect="" end="60522" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="12" start="51815" style="Default" text="We will recognize some of the propaganda used  by the opponents of digital freedom" translation=""/>
+    <subtitle duration="2691" effect="" end="63313" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="13" start="60622" style="Default" text="and how to avoid repeating it" translation=""/>
+    <subtitle duration="4051" effect="" end="67464" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="14" start="63413" style="Default" text="And we will talk about some of the thin changes" translation=""/>
+    <subtitle duration="4001" effect="" end="71565" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="15" start="67564" style="Default" text="we need to make (some of us) in our own lifestyles" translation=""/>
+    <subtitle duration="5553" effect="" end="77218" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="16" start="71665" style="Default" text="so that we recover some of the digital freedom that many have lost" translation=""/>
+    <subtitle duration="6177" effect="" end="83495" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="17" start="77318" style="Default" text="Happy hacking! And I hope this course will get you started you on the path to freedom. " translation=""/>
+  </subtitles>
+  <subtitles-selection>
+    <subtitle path="10"/>
+  </subtitles-selection>
+</SubtitleEditorProject>
