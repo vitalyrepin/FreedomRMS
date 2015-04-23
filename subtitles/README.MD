@@ -25,3 +25,4 @@ Every directory has the following files:
 
 How to start creating subtitles with gna: http://home.gna.org/subtitleeditor/docs/how-to-editing-subtitles-with-waveform.html
 
+How to test you SubRip subtitles: open video file with vlc and add subtitles using Subtitle/Add Subtitle File... menu
