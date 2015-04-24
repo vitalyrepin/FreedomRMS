@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="EN" lang="EN" >
+<head  profile="http://www.w3.org/2005/10/profile" >
+  <title> ${page_title} </title>
+  <meta name="robots" content="index, follow" />    
+  <meta name="lang" content="english" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="generator" content="txt2site" />
+  <meta name="description" content="${page_description}" />
+  <meta name="keywords" content="${site_keywords}, ${page_keywords}" />
+  <meta name="date" content="${page_source_mtime}" />
+  <link rel="icon" type="image/png" href="${path_to_root}include/images/favicon.png" />
+  <link href="${path_to_root}include/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="${path_to_root}include/css/print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+
+<!-- =========================================================================== -->
+
+<body >
+
+<div id="div_body" >
+
+<div id="div_top" > 
+  <div id="div_hormenu" >
+     $(html_mainmenu_div)
+  </div> 
+</div> 
+
+<div id="div_header" >
+     <br />
+     <p class="header1" > ${page_header1} </p>
+     <p class="header2" > ${page_header2} </p>
+</div> 
+
+<div id="div_main" > 
+    $(html_content_div 1)
+</div>  <!-- end hoofdvak -->
+
+<div id="div_link_to_top" >
+    <a id="link_to_top" href="#" title="Top of Content" > ^ </a>
+</div>
+
+<div id="div_footer" >
+   <span>  Vitaly Repin 2015 </span>
+   <span>  Powered by Txt2Site </span>
+   <span>  Last changed: ${page_source_mtime} </span>
+</div>
+
+</div>  <!-- end div_body -->
+
+</body>
+</html>
+

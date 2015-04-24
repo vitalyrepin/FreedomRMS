@@ -1,0 +1,71 @@
+page_format=html
+page_template=template
+
+page_title=Road to the Free Digital Society
+page_description=Road to the Free Digital Society. Course pages.
+page_header1=Road to the Free Digital Society
+page_header2=Course on Free Digital Society from Richard Matthew Stallman
+page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open source, Linux
+
+<<<<< content section 1 >>>>>
+
+<h2> Welcome! </h2>
+
+<p>
+Our world is full of exciting opportunities delivered to us by the information technologies. We live in a digital age. As an example, our parents in 80s were shocked by live TV broadcasts from one continent to another. Today anybody can do the same (it's called live streaming) using his or her smartphone. It made citizen journalism possible. You can order the book or article in several clicks and it will be instantly delivered to your e-book reader, mobile phone and soon to the cars and refrigerators.
+</p>
+
+<p>
+However, this digital ocean is full of dangers which most of us are not aware of.  What are the software licenses? What "works of authorship" mean and which licenses can be applied to them? What is the proper balance between our security and privacy? Should the understanding of human rights itself change because of the new technologies?
+</p>
+
+<p>
+This course is focused on these questions. It is made with cooperation of <a href="http://www.fsf.org/about/staff-and-board/">Richard Matthew Stallman</a> who is the founder of <a href="http://www.fsf.org/">Free Software Foundation</a>. He is the most famous expert in the field of digital freedom. Dr. Stallman is not only a theorist but also a practitioner. A living legend that has dedicated his life on liberating source code and making it available for all.
+</p>
+
+<p>
+Welcome to our course! We are eager to share the knowledge with you! Make a step on the road to freedom!
+</p>
+
+
+ <video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/Intro/IntroRMS.ogv" type="video/ogg">
+ <track label="English" kind="subtitles" srclang="en" src="http://vrepin.org/rms/Intro/IntroRMS-en.vtt" default>
+<a href="http://vrepin.org/rms/Intro/IntroRMS.ogv">Download Introduction video.</a>
+</video>
+
+<p>
+Keywords: GNU, GPL, Creative Commons, Copyleft, FSF, Freedom, Licensing, Sharing
+</p>
+
+
+<h2> Larning objectives and outcome </h2>
+
+<p>
+The objective of this course is to help participant understand the threats introduces to the modern society by the informational technologies of the day. It includes but not limited to the threats introduced by malicious and proprietary software, patented software, e-books and cloud computing.
+</p>
+
+<p>
+By the end of the course participant will be aware of these threats and will have understanding on a practical and philosophical levels of the ways to contribute to the free digital society.
+Course requirements
+</p>
+
+<p>No recommended background. Everybody is welcome!
+</p>
+
+
+<h2>Join us at Eliademy course pages!</h2>
+
+<p>All the course videos are published on this <a href="https://www.gnu.org/software/librejs/">LibreJS</a>-friendly web site.
+However, participation in <a href="https://eliademy.com/catalog/road-to-the-free-digital-society.html">this course on Eliademy MOOC platform</a> gives you more learning benefits:
+</p>
+
+<ul>
+<li>Ability to test and improve your knowledge by taking quizzes. The course contains five quizzes (one per week).</li>
+<li>Discussion of the material you learn with other course participants through course forums.</li>
+<li>You can receive Statement of Accomplishment</li>
+</ul>
+
+<p>
+Course starts: 04 May 2015. Course ends: 07 June 2015. <a href="https://eliademy.com/catalog/road-to-the-free-digital-society.html">Enroll right now!</a>
+</p>

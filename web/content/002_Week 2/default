@@ -1,0 +1,97 @@
+page_format=html
+page_template=template
+
+page_title=Road to the Free Digital Society. Week 2
+page_description=Week 2. Threats to the Free Digital Society
+page_header1=Road to the Free Digital Society
+page_header2=Week 2. Threats to the Free Digital Society
+page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open source, Linux
+
+<<<<< content section 1 >>>>>
+
+<h2>2.1. Digital Society: Inclusion or Escape? Surveillance, censorship, restricting the users</h2>
+
+<ul>
+<li>Shall we aim for inclusion to or escape from the Digital Society?</li>
+<li>What are the threats to the Digital Society? Overview</li>
+<li>Threat 1: Surveillance
+<ul>
+<li>Surveillance and Democracy: how are they compatible?</li>
+<li>Who watches the watchmen? Why society needs whistleblowers</li>
+<li>Common engineering practice of the day: keep all the data you can</li>
+<li>Three ways to spy on people. Examples and the ways to react: </li>
+<ol>
+<li>Through their own systems</li>
+<li>Through the systems they use but don't own (e.g., phone networks)</li>
+<li>Surveillance systems which are designed specifically for this activity</li>
+</ol>
+<li>Data from business surveillance systems is available to the state</li>
+</ul>
+</li>
+<li>Threat 2: Censorship
+<ul>
+<li>Censorship in Internet: "filtration"</li>
+<li>Country examples (Finland, Turkey, UK, India ...)</li>
+<li>Propaganda methods: using disgusting things (e.g., child pornography) to advocate censorship tools.
+</ul>
+</li>
+<li>Threat 3: Data formats that restrict their users.
+<ul>
+<li>Digital handcuffs</li>
+<li>DRM: Digital Restrictions Management</li>
+<li>Reasons why secret data formats exist</li>
+</ul>
+</li>
+</ul>
+
+ <video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W2/RMS-W2-D1.ogv" type="video/ogg">
+<a href="http://vrepin.org/rms/W2/RMS-W2-D1.ogv">Download video.</a>
+</video>
+
+<h2>2.2. Threats from software that the user do not control</h2>
+
+<ul>
+<li>There are only two options: the users controls the program OR the program controls the users</li>
+<li>Backdoors and Universal Backdoors</li>
+<li>Real-life examples: <a href="https://www.gnu.org/philosophy/why-call-it-the-swindle.html">Amazon Swindle</a>, portable phones</li>
+</ul>
+
+
+ <video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W2/RMS-W2-D2.ogv" type="video/ogg">
+<a href="http://vrepin.org/rms/W2/RMS-W2-D2.ogv">Download video.</a>
+</video>
+
+
+<h2>2.3. Threats from Service as a Software Substitute</h2>
+
+<ul>
+</ul>
+
+ <video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W2/RMS-W2-D3.ogv" type="video/ogg">
+<a href="http://vrepin.org/rms/W2/RMS-W2-D3.ogv">Download video.</a>
+</video>
+
+<h2>2.4. War on Sharing. Precarity</h2>
+
+<ul>
+</ul>
+
+ <video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W2/RMS-W2-D4.ogv" type="video/ogg">
+<a href="http://vrepin.org/rms/W2/RMS-W2-D4.ogv">Download video.</a>
+</video>
+
+
+<h2>Additional materials</h2>
+
+<UL>
+<LI><A HREF="https://www.gnu.org/philosophy/surveillance-vs-democracy.html">How Much Surveillance Can Democracy Withstand?</A> by Richard Stallman
+<LI><A HREF="http://www.telegraph.co.uk/news/worldnews/wikileaks/8178457/WikiLeaks-website-disconnected-as-US-company-withdraws-support.html">WikiLeaks website disconnected as US company withdraws support</A>
+<LI><A HREF="http://stallman.org/articles/end-war-on-sharing.html">Ending the War on Sharing</A> by Richard Stallman
+<LI><A HREF="https://www.gnu.org/philosophy/who-does-that-server-really-serve.html">Who does that server really serve?</A> by Richard Stallman
+<LI><A HREF="http://www.engadget.com/2009/07/17/amazon-remotely-deletes-orwell-e-books-from-kindles-unpersons-r/">Amazon remotely deletes Orwell e-books from Kindles</A> Engadget article
+<LI><A HREF="http://en.wikipedia.org/wiki/Censorship_in_Finland#Internet">Censorship in Finland</A> Wikipedia article
+</UL>
