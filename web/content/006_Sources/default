@@ -10,6 +10,7 @@ page_keywords=e-learning, fsfe,  free software, open source, fsf, stallman, cour
 <<<<< content section 1 >>>>>
 
 == Sources ==
+[../include/images/Source-code-icon.png]
 
 - The sources of this web site, captions and subtitles can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
 to the [Creative Commons licenses ../license/index.html] these materials are distributed under.
@@ -17,6 +18,7 @@ to the [Creative Commons licenses ../license/index.html] these materials are dis
 
 
 == Tools ==
+[../include/images/crafty-penguin.png]
 
 The following free tools were used in order to prepare this course:
 
