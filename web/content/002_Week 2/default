@@ -13,33 +13,33 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 
 <ul>
 <li>Shall we aim for inclusion to or escape from the Digital Society?</li>
-<li>What are the threats to the Digital Society? Overview</li>
-<li>Threat 1: Surveillance
+<li>What are the threats to the Digital Society? Overview.</li>
+<li>Threat 1: Surveillance.
 <ul>
 <li>Surveillance and Democracy: how are they compatible?</li>
-<li>Who watches the watchmen? Why society needs whistleblowers</li>
-<li>Common engineering practice of the day: keep all the data you can</li>
+<li>Who watches the watchmen? Why society needs whistleblowers.</li>
+<li>Common engineering practice of the day: keep all the data you can.</li>
 <li>Three ways to spy on people. Examples and the ways to react: </li>
 <ol>
-<li>Through their own systems</li>
-<li>Through the systems they use but don't own (e.g., phone networks)</li>
-<li>Surveillance systems which are designed specifically for this activity</li>
+<li>Through their own systems.</li>
+<li>Through the systems they use but don't own (e.g., phone networks).</li>
+<li>Surveillance systems which are designed specifically for this activity.</li>
 </ol>
-<li>Data from business surveillance systems is available to the state</li>
+<li>Data from business surveillance systems is available to the state.</li>
 </ul>
 </li>
-<li>Threat 2: Censorship
+<li>Threat 2: Censorship.
 <ul>
-<li>Censorship in Internet: "filtration"</li>
-<li>Country examples (Finland, Turkey, UK, India ...)</li>
+<li>Censorship in Internet: "filtration".</li>
+<li>Country examples (Finland, Turkey, UK, India ...).</li>
 <li>Propaganda methods: using disgusting things (e.g., child pornography) to advocate censorship tools.
 </ul>
 </li>
 <li>Threat 3: Data formats that restrict their users.
 <ul>
-<li>Digital handcuffs</li>
-<li>DRM: Digital Restrictions Management</li>
-<li>Reasons why secret data formats exist</li>
+<li>Digital handcuffs.</li>
+<li>DRM: Digital Restrictions Management.</li>
+<li>Reasons why secret data formats exist.</li>
 </ul>
 </li>
 </ul>
@@ -52,9 +52,9 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 <h2>2.2. Threats from software that the user do not control</h2>
 
 <ul>
-<li>There are only two options: the users controls the program OR the program controls the users</li>
-<li>Backdoors and Universal Backdoors</li>
-<li>Real-life examples: <a href="https://www.gnu.org/philosophy/why-call-it-the-swindle.html">Amazon Swindle</a>, portable phones</li>
+<li>There are only two options: the users controls the program OR the program controls the users.</li>
+<li>Backdoors and Universal Backdoors.</li>
+<li>Real-life examples: <a href="https://www.gnu.org/philosophy/why-call-it-the-swindle.html">Amazon Swindle</a>, portable phones.</li>
 </ul>
 
 
@@ -67,21 +67,92 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 <h2>2.3. Threats from Service as a Software Substitute</h2>
 
 <ul>
+<LI>SaaSS: new way to lose control over your computing.</LI>
+<li>SaaSS: how it works. Technical explanation. </li>
+<li>SaaSS is equivalent to running non-free program with universal backdoor which makes it proprietary malware.</li>
+<li>Paradoxical relationships between SaaSS and free/nonfree software.
+<ul>
+<li>
+If server software is free, it does not help the users. It benefits only the server owner.
+</li>
+<li>If server software is non-free then server owner does not control it. Somebody else controls it. The users do not benefit in either of the situations.
+</ul>
+</li>
+<li>Not all the services are SaaSS:
+<ul>
+<li>Sometimes you can't fully control your computing - e.g., when you are communicating with other people.</li>
+<li>If  your task can be done if you have powerful computer and required software, then server-based solution is SaaSS. Otherwise it is not.
+</ul>
+</li>
+<li>Examples of SaaSS: Translation and Speech Recognition services.</li>
 </ul>
 
  <video width="320" height="240" controls>
   <source src="http://vrepin.org/rms/W2/RMS-W2-D3.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W2/RMS-W2-D3.ogv">Download video.</a>
+<track src="http://vrepin.org/rms/W2/RMS-W2-D3-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W2/RMS-W2-D3.ogv">Download video.</a> <a href="http://vrepin.org/rms/W2/RMS-W2-D3-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>2.4. War on Sharing. Precarity</h2>
 
 <ul>
+<li>What is sharing and why it is good.</li>
+<li>Attack on sharing is an attack on social cooperation.</li>
+<li>Two kinds of works:
+<ol>
+<li>Works we need to do practical jobs (e.g. reference works, educational works): should be free. </li>
+<li>Others (e.g. entertainment, opinion, art) should be freely shareable.</li>
+</ol>
+</li>
+<li>Ways to attack sharing:
+<ul>
+<li>Laws which forbid sharing. </li>
+<li>Propaganda. Terms like "Piracy" and "Theft":
+<ul>
+<li>Reject propaganda terms! Attacking ship is very bad, sharing is good.</li>
+<li>Legally speaking, copyright infringement is never theft. Sometimes it's a crime, sometimes not. But is it NEVER a theft.</li>
+</ul>
+</li>
+<li>Publishing of the works using secret formats with the purpose to restrict the public:
+<ul>
+<li>DVD "conspiracy": if you want to manufacture DVD player, you need to join the conspiracy. No competition in this important part of DVD player functionality!
+</ul>
+</li>
+<li> DMCA: Digital Millennium Copyright Act:
+<ul>
+<li> Banning distribution of free software which allows to read DVDs in the secret format.</li>
+<li> Similar laws in EU and other countries.
+</ul>
+</li>
+<li>DRM: Digital Restrictions Management:
+<ul>
+<li>Introduced by AACS (Advanced Access Content System) "conspiracy".</li>
+<li>Example of AACS power: they managed to ban analog video outputs.</li>
+</ul>
+<li>Disconnect people from Internet when they are <i>accused</i> of sharing (without a trial):
+<ul>
+<li>Crashing of the basic principle of justice - <a href="http://en.wikipedia.org/wiki/Right_to_a_fair_trial">No punishment without a trial</a>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Controlling what our technology does is a worse attack on society than controlling prices. It shall be treated as more grave crime.</li>
+<li>Usage of Internet is precarious:
+<ul>
+<li>You need to cooperate with ISP, DNS registrar, other companies in order to do your tasks.</li>
+<li>Typically the contracts you sign are so, that they can be canceled for any reason by service provider. </li>
+<li>Example: Dirty Tricks campaign against WikiLeaks. </li>
+<li>Analogy: imagine that government convinces your phone or electrical company that it's in their interest to stop serving you.</li>
+<li>Regulation is needed like for other public utilities: no right to disconnect if I pay according to the contract, no way to discriminate single customer etc.</li>
+</ul>
+</li>
 </ul>
 
  <video width="320" height="240" controls>
-  <source src="http://vrepin.org/rms/W2/RMS-W2-D4.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W2/RMS-W2-D4.ogv">Download video.</a>
+  <source src="http://vrepin.org/rms/W2/RMS-W2-D4.webm" type="video/ogg">
+ <track src="http://vrepin.org/rms/W2/RMS-W2-D4-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W2/RMS-W2-D4.webm">Download video.</a> <a href="http://vrepin.org/rms/W2/RMS-W2-D4-captions-en.vtt">Download captions.</a>
+
 </video>
 
 
@@ -94,4 +165,5 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 <LI><A HREF="https://www.gnu.org/philosophy/who-does-that-server-really-serve.html">Who does that server really serve?</A> by Richard Stallman
 <LI><A HREF="http://www.engadget.com/2009/07/17/amazon-remotely-deletes-orwell-e-books-from-kindles-unpersons-r/">Amazon remotely deletes Orwell e-books from Kindles</A> Engadget article
 <LI><A HREF="http://en.wikipedia.org/wiki/Censorship_in_Finland#Internet">Censorship in Finland</A> Wikipedia article
+<li><a href="http://www.theguardian.com/commentisfree/2010/dec/17/anonymous-wikileaks-protest-amazon-mastercard">The Anonymous WikiLeaks protests are a mass demo against control</a> by Richard Stallman
 </UL>

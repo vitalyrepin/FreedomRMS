@@ -13,8 +13,8 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 
 <ul>
 <li>Most important question to judge the program: What does it do for my freedom?</li>
-<li>Difference between free and proprietary software</li>
-<li>Human rights in computing. Overview</li>
+<li>Difference between free and proprietary software.</li>
+<li>Human rights in computing. Overview.</li>
 </ul>
 
  <video width="320" height="240" controls>
@@ -28,18 +28,18 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 <li>Software freedom: What is it?</li>
 <li>Four essentials freedoms: 
 <ol>
-<li>The freedom to run the program as you wish, for any purpose</li>
+<li>The freedom to run the program as you wish, for any purpose.</li>
 <li>The freedom to study how the program works, and change it so it does your computing as you wish.</li>
-<li>The freedom to redistribute copies so you can help your neighbor</li>
-<li>The freedom to distribute copies of your modified versions to others </li>
+<li>The freedom to redistribute copies so you can help your neighbor.</li>
+<li>The freedom to distribute copies of your modified versions to others. </li>
 </ol>
 </li>
-<li>Why software freedoms are essential</li>
-<li>GNU/Linux operating system. History and modern status</li>
-<li>Freedom as a goal. Free GNU/Linux distributions</li>
-<li>Features of malicious software: Digital Restrictions Management (DRM) and Surveillance</li>
-<li>How proprietary software is promoted by its victims: Skype example</li>
-<li>Free software is a matter of liberty, not price</li>
+<li>Why software freedoms are essential.</li>
+<li>GNU/Linux operating system. History and current status.</li>
+<li>Freedom as a goal. Free GNU/Linux distributions.</li>
+<li>Features of malicious software: Digital Restrictions Management (DRM) and Surveillance.</li>
+<li>How proprietary software is promoted by its victims: Skype example.</li>
+<li>Free software is a matter of liberty, not price.</li>
 </ul>
 
 
@@ -54,10 +54,10 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 <li>What is computational idea patent?</li>
 <li>Why computational idea patents are bad?
 <ul>
-<li>Patents and copyrights are totally different things</li>
-<li>Analogy with music: imagine that there are musical idea patents (e.g., for melody)</li>
-<li>Writing a program (as well as writing a symphony): combination of new and familiar ideas</li>
-<li>Computational idea patents in real life: LZW and natural order recalculation examples</li>
+<li>Patents and copyrights are totally different things.</li>
+<li>Analogy with music: imagine that there are musical idea patents (e.g., for melody).</li>
+<li>Writing a program (as well as writing a symphony): combination of new and familiar ideas.</li>
+<li>Computational idea patents in real life: LZW and natural order recalculation examples.</li>
 </ul>
 </li>
 </ul>
