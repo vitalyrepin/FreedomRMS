@@ -11,8 +11,10 @@ page_keywords=e-learning, fsfe,  free software, open source, fsf, stallman, cour
 
 == Sources ==
 
-The sources of this web site, captions and subtitles can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
+- The sources of this web site, captions and subtitles can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
 to the [Creative Commons licenses ../license/index.html] these materials are distributed under.
+- Video files are located in the ['rms' subfolder of this site http://vrepin.org/rms/] and can be easily fetched with [wget https://www.gnu.org/software/wget/].
+
 
 == Tools ==
 
@@ -24,5 +26,5 @@ The following free tools were used in order to prepare this course:
 - [ffmpeg https://www.ffmpeg.org/] and [Kdenlive https://kdenlive.org/] for video postprocessing
 - [Subtitleeditor http://home.gna.org/subtitleeditor/] to create subtitles
 - [GNU Make https://www.gnu.org/software/make/] to put it all together
-- [Vim http://www.vim.org/about.php] was used as an editor ( sorry, rms! [Emacs http://www.gnu.org/software/emacs/] is great editor too, I know  :-) )
+- [Vim http://www.vim.org/about.php] was used as an editor ( sorry, rms! [Emacs http://www.gnu.org/software/emacs/] is great editor too, everybody knows  :-) )
 

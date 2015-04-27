@@ -38,21 +38,6 @@ Welcome to our course! We are eager to share the knowledge with you! Make a step
 Keywords: GNU, GPL, Creative Commons, Copyleft, FSF, Freedom, Licensing, Sharing
 </p>
 
-
-<h2> Learning objectives and outcome </h2>
-
-<p>
-The objective of this course is to help participant understand the threats introduces to the modern society by the informational technologies of the day. It includes but not limited to the threats introduced by malicious and proprietary software, patented software, e-books and cloud computing.
-</p>
-
-<p>
-By the end of the course participant will be aware of these threats and will have understanding on a practical and philosophical levels of the ways to contribute to the free digital society.
-</p>
-
-<h2> Course requirements</h2>
-<p>No recommended background. Everybody is welcome!
-</p>
-
 <h2>Syllabus</h2>
 
 <div class="CSSTableGenerator" >
@@ -70,7 +55,7 @@ By the end of the course participant will be aware of these threats and will hav
                             Wk. 1
                         </td>
                         <td>
-                            <a href="week_1/index.html">Introduction to the course. Human rights in Computing, Four Essential Freedoms</a>
+                            <a href="week_1/index.html">Introduction to the course. Human rights in Computing, Four Essential Freedoms.</a> How do we define Software Freedom? What is GNU/Linux history? Why GNU? Introduction to the computational ideas patents.
                         </td>
                         </td>
                     </tr>
@@ -79,7 +64,7 @@ By the end of the course participant will be aware of these threats and will hav
                             Wk. 2
                         </td>
                         <td>
-                            <a href="week_2/index.html">Threats to the Free Digital Society</a>
+                            <a href="week_2/index.html">Threats to the Free Digital Society.</a> We will go through the most dangerous threats to the Free Digital Society: SaaSS, Universal Backdoors, Censorship, Sharing, Precarity and more.
                         </td>
                     </tr>
                     <tr>
@@ -87,7 +72,7 @@ By the end of the course participant will be aware of these threats and will hav
                             Wk. 3
                         </td>
                         <td>
-                            <a href="week_3/index.html">Copyright and Copyleft: How to make software free?</a>
+                            <a href="week_3/index.html">Copyright and Copyleft: How to make software free?</a> Discussion on software licenses to select for your project.
                         </td>
                     </tr>
                     <tr>
@@ -95,7 +80,7 @@ By the end of the course participant will be aware of these threats and will hav
                             Wk. 4
                         </td>
                         <td>
-                           <a href="week_4/index.html"> Works of Authorship in the Free Digital Society. History, Philosophy, Practice.</a>
+                           <a href="week_4/index.html"> Works of Authorship in the Free Digital Society. History, Philosophy, Practice.</a> Discussion on the licenses to select for your works of authorship (including documentation)
                         </td>
                     </tr>
 		    <tr>
@@ -103,12 +88,17 @@ By the end of the course participant will be aware of these threats and will hav
                             Wk. 5
                         </td>
                         <td>
-                        <a href="week_5/index.html">Digital lifestyle to support freedom. How can we contribute to the Free Digital Society?</a>
+                        <a href="week_5/index.html">Digital lifestyle to support freedom. How can we contribute to the Free Digital Society?</a> Practical steps on the way to the Free Digital Society.
 			</td>
                     </tr>
 
                 </table>
             </div>
+
+
+<h2> Course requirements</h2>
+<p>No recommended background. Everybody is welcome!
+</p>
 
 
 <h2>Join us at Eliademy course pages!</h2>
