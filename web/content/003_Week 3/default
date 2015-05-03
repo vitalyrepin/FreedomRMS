@@ -1,4 +1,4 @@
-page_format=txt2tags
+page_format=html
 page_template=template
 
 page_title=Road to the Free Digital Society. Week 3
@@ -9,10 +9,44 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
 
 <<<<< content section 1 >>>>>
 
-== Coming soon! ==
+<h2>3.1. Free Software Licenses. Introduction</h2>
 
- [../include/images/Red-Coming-Soon-Stamp.png] 
+<video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W3/RMS-W3-D1.ogv" type="video/ogg">
+<track src="http://vrepin.org/rms/W3/RMS-W3-D1-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W3/RMS-W3-D1.ogv">Download video.</a> <a href="http://vrepin.org/rms/W3/RMS-W3-D1-captions-en.vtt">Download captions.</a>
+</video>
 
-== Contacts ==
+<h2>3.2. GNU GPL and Affero GPL: Copyleft licenses</h2>
 
-For any inquires you have feel free to contact me at my [FSFE https://fsfe.org/index.sv.html] address: vitaly_repin <you know the sign> fsfe.org
+<video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W3/RMS-W3-D2.ogv" type="video/ogg">
+<track src="http://vrepin.org/rms/W3/RMS-W3-D2-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W3/RMS-W3-D2.ogv">Download video.</a> <a href="http://vrepin.org/rms/W3/RMS-W3-D2-captions-en.vtt">Download captions.</a>
+</video>
+
+<h2>3.3. Non copyleft and weak copyleft licenses</h2>
+
+<video width="320" height="240" controls>
+  <source src="http://vrepin.org/rms/W3/RMS-W3-D3.ogv" type="video/ogg">
+<a href="http://vrepin.org/rms/W3/RMS-W3-D3.ogv">Download video.</a>
+</video>
+
+
+<h2>Additional materials</h2>
+
+<UL>
+<li><a href="http://www.gnu.org/licenses/license-list.html">FSF: Various Licenses and Comments about Them</a></li>
+<li><a href="http://www.gnu.org/licenses/license-recommendations.html">FSF: How to choose a license for your own work</a></li>
+<li><a href="https://www.gnu.org/philosophy/bsd.html">FSF: The BSD License Problem</a></li>
+<li><a href="http://www.apache.org/dev/apply-license.html">Apache Foundation: Applying the Apache License</a></li>
+<li><a href="https://www.mozilla.org/MPL/2.0/FAQ.html">Mozilla Foundation: MPL 2.0 FAQ</a></li>
+<li><a href="https://www.gnu.org/licenses/gpl-faq.html">FSF: Frequently Asked Questions about the GNU Licenses</a></li>
+</ul>
+
+<h2>Useful tools</h2>
+
+<ul>
+<li><a href="https://github.com/fossology/fossology">FOSSology - system for analyzing and studying FOSS – Free and Open Source Software</a></li>
+<li><a href="https://wiki.ow2.org/oslcv3/">Opens Source License Checker Wiki</a> and <a href="http://forge.ow2.org/project/showfiles.php?group_id=330">Download link</a></li>
+</UL>
