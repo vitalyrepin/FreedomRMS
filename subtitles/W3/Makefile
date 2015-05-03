@@ -1,4 +1,4 @@
-VIDEOS=RMS-W3-D1.ogv RMS-W3-D2.ogv
+VIDEOS=RMS-W3-D1.ogv RMS-W3-D2.ogv RMS-W3-D3.ogv
 
 RM=rm -f
 WGET=wget
@@ -11,6 +11,9 @@ RMS-W3-D1.ogv:
 	$(WGET) $(URL_ROOT)$@
 
 RMS-W3-D2.ogv:
+	$(WGET) $(URL_ROOT)$@
+
+RMS-W3-D3.ogv:
 	$(WGET) $(URL_ROOT)$@
 
 
