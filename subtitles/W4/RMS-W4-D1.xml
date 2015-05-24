@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubtitleEditorProject version="1.0">
+  <player uri="file:///home/vit/work/FreedomRMS/subtitles/W4/RMS-W4-D1.ogv"/>
+  <waveform uri="file:///home/vit/work/FreedomRMS/subtitles/W4/RMS-W4-D1.wf"/>
+  <keyframes uri="file:///home/vit/work/FreedomRMS/subtitles/W4/RMS-W4-D1.kf"/>
+  <styles/>
+  <subtitles timing_mode="TIME" edit_timing_mode="TIME" framerate="25"/>
+  <subtitles-selection/>
+</SubtitleEditorProject>
