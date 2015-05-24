@@ -53,7 +53,8 @@ Our basic principles are deep, technology is superficial. But it can make the ve
 
 <video width="320" height="240" controls>
   <source src="http://vrepin.org/rms/W4/RMS-W4-D1.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W4/RMS-W4-D1.ogv">Download video.</a>
+<track src="http://vrepin.org/rms/W4/RMS-W4-D1-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W4/RMS-W4-D1.ogv">Download video.</a> <a href="http://vrepin.org/rms/W4/RMS-W4-D1-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>4.2. Copyright in the digital age</h2>
@@ -89,7 +90,9 @@ Our basic principles are deep, technology is superficial. But it can make the ve
 
 <video width="320" height="240" controls>
   <source src="http://vrepin.org/rms/W4/RMS-W4-D2.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W4/RMS-W4-D2.ogv">Download video.</a>
+<track src="http://vrepin.org/rms/W4/RMS-W4-D2-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W4/RMS-W4-D2.ogv">Download video.</a> <a href="http://vrepin.org/rms/W4/RMS-W4-D2-captions-en.vtt">Download captions.</a>
+
 </video>
 
 <h2>4.3. Digital distribution: Ethical and Unethical</h2>
@@ -116,7 +119,8 @@ Our basic principles are deep, technology is superficial. But it can make the ve
 
 <video width="320" height="240" controls>
   <source src="http://vrepin.org/rms/W4/RMS-W4-D3.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W4/RMS-W4-D3.ogv">Download video.</a>
+<track src="http://vrepin.org/rms/W4/RMS-W4-D3-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W4/RMS-W4-D3.ogv">Download video.</a> <a href="http://vrepin.org/rms/W4/RMS-W4-D3-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>4.4. The Why, What and How of Creative Commons</h2>
@@ -141,7 +145,8 @@ Our basic principles are deep, technology is superficial. But it can make the ve
 
 <video width="320" height="240" controls>
   <source src="http://vrepin.org/rms/W4/RMS-W4-D4.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W4/RMS-W4-D4.ogv">Download video.</a>
+<track src="http://vrepin.org/rms/W4/RMS-W4-D4-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://vrepin.org/rms/W4/RMS-W4-D4.ogv">Download video.</a> <a href="http://vrepin.org/rms/W4/RMS-W4-D4-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>Additional materials</h2>
