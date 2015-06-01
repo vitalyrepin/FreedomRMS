@@ -29,9 +29,9 @@ Welcome to our course! We are eager to share the knowledge with you! Make a step
 
 
  <video width="320" height="240" controls>
-  <source src="http://vrepin.org/rms/Intro/IntroRMS.ogv" type="video/ogg">
- <track label="English" kind="subtitles" srclang="en" src="http://vrepin.org/rms/Intro/IntroRMS-en.vtt" default>
-<a href="http://vrepin.org/rms/Intro/IntroRMS.ogv">Download Introduction video.</a>
+  <source src="http://digitalfree.info/rms/Intro/IntroRMS.ogv" type="video/ogg">
+ <track label="English" kind="subtitles" srclang="en" src="http://digitalfree.info/rms/Intro/IntroRMS-en.vtt" default>
+<a href="http://digitalfree.info/rms/Intro/IntroRMS.ogv">Download Introduction video.</a>
 </video>
 
 <p>

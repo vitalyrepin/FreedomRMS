@@ -34,9 +34,9 @@ which explains why there are many free software licenses.</li>
 </ul>
 
 <video width="320" height="240" controls>
-  <source src="http://vrepin.org/rms/W3/RMS-W3-D1.ogv" type="video/ogg">
-<track src="http://vrepin.org/rms/W3/RMS-W3-D1-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
-<a href="http://vrepin.org/rms/W3/RMS-W3-D1.ogv">Download video.</a> <a href="http://vrepin.org/rms/W3/RMS-W3-D1-captions-en.vtt">Download captions.</a>
+  <source src="http://digitalfree.info/rms/W3/RMS-W3-D1.ogv" type="video/ogg">
+<track src="http://digitalfree.info/rms/W3/RMS-W3-D1-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://digitalfree.info/rms/W3/RMS-W3-D1.ogv">Download video.</a> <a href="http://digitalfree.info/rms/W3/RMS-W3-D1-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>3.2. GNU GPL and Affero GPL: Copyleft licenses</h2>
@@ -78,9 +78,9 @@ of copyleft does not work.</li>
 </ul>
 
 <video width="320" height="240" controls>
-  <source src="http://vrepin.org/rms/W3/RMS-W3-D2.ogv" type="video/ogg">
-<track src="http://vrepin.org/rms/W3/RMS-W3-D2-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
-<a href="http://vrepin.org/rms/W3/RMS-W3-D2.ogv">Download video.</a> <a href="http://vrepin.org/rms/W3/RMS-W3-D2-captions-en.vtt">Download captions.</a>
+  <source src="http://digitalfree.info/rms/W3/RMS-W3-D2.ogv" type="video/ogg">
+<track src="http://digitalfree.info/rms/W3/RMS-W3-D2-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
+<a href="http://digitalfree.info/rms/W3/RMS-W3-D2.ogv">Download video.</a> <a href="http://digitalfree.info/rms/W3/RMS-W3-D2-captions-en.vtt">Download captions.</a>
 </video>
 
 <h2>3.3. Non copyleft and weak copyleft licenses</h2>
@@ -109,8 +109,8 @@ That's why ogg/vorbis codec was distributed under non copyleft license: Apache 2
 </ul>
 
 <video width="320" height="240" controls>
-  <source src="http://vrepin.org/rms/W3/RMS-W3-D3.ogv" type="video/ogg">
-<a href="http://vrepin.org/rms/W3/RMS-W3-D3.ogv">Download video.</a>
+  <source src="http://digitalfree.info/rms/W3/RMS-W3-D3.ogv" type="video/ogg">
+<a href="http://digitalfree.info/rms/W3/RMS-W3-D3.ogv">Download video.</a>
 </video>
 
 
