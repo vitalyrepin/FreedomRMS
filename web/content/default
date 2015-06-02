@@ -27,12 +27,17 @@ This course is focused on these questions. It is made with cooperation of <a hre
 Welcome to our course! We are eager to share the knowledge with you! Make a step on the road to freedom!
 </p>
 
-
+<p>
  <video width="320" height="240" controls>
   <source src="http://digitalfree.info/rms/Intro/IntroRMS.ogv" type="video/ogg">
  <track label="English" kind="subtitles" srclang="en" src="http://digitalfree.info/rms/Intro/IntroRMS-en.vtt" default>
-<a href="http://digitalfree.info/rms/Intro/IntroRMS.ogv">Download Introduction video.</a>
+<a href="http://digitalfree.info/rms/Intro/IntroRMS.ogv">Download Introduction video.</a> <a href="http://digitalfree.info/rms/Intro/IntroRMS-en.vtt">Download subtitles.</a>
 </video>
+</p>
+<br>
+<audio src="http://digitalfree.info/rms/Intro/audio/IntroRMS.ogg" controls>
+<p>Your browser does not support the <code>audio</code> element. <a href="http://digitalfree.info/rms/Intro/audio/IntroRMS.ogg">Download audio file (Ogg Vorbis).</a></p>
+</audio>
 
 <p>
 Keywords: GNU, GPL, Creative Commons, Copyleft, FSF, Freedom, Licensing, Sharing
