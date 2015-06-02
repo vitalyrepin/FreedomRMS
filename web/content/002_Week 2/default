@@ -48,6 +48,13 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
   <source src="http://digitalfree.info/rms/W2/RMS-W2-D1.ogv" type="video/ogg">
 <a href="http://digitalfree.info/rms/W2/RMS-W2-D1.ogv">Download video.</a>
 </video>
+<p>
+<br>
+</p>
+<audio src="http://digitalfree.info/rms/W2/audio/RMS-W2-D1.ogg" controls>
+<p>Your browser does not support the <code>audio</code> element. <a href="http://digitalfree.info/rms/W2/audio/RMS-W2-D1.ogg">Download audio file (Ogg Vorbis).</a></p>
+</audio>
+
 
 <h2>2.2. Threats from software that the user do not control</h2>
 
@@ -62,6 +69,13 @@ page_keywords=Stallman, GNU, FSF, free software, libre, SaaSS, SaaS, Apple, open
   <source src="http://digitalfree.info/rms/W2/RMS-W2-D2.ogv" type="video/ogg">
 <a href="http://digitalfree.info/rms/W2/RMS-W2-D2.ogv">Download video.</a>
 </video>
+<p>
+<br>
+</p>
+<audio src="http://digitalfree.info/rms/W2/audio/RMS-W2-D2.ogg" controls>
+<p>Your browser does not support the <code>audio</code> element. <a href="http://digitalfree.info/rms/W2/audio/RMS-W2-D2.ogg">Download audio file (Ogg Vorbis).</a></p>
+</audio>
+
 
 
 <h2>2.3. Threats from Service as a Software Substitute</h2>
@@ -92,6 +106,13 @@ If server software is free, it does not help the users. It benefits only the ser
 <track src="http://digitalfree.info/rms/W2/RMS-W2-D3-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
 <a href="http://digitalfree.info/rms/W2/RMS-W2-D3.ogv">Download video.</a> <a href="http://digitalfree.info/rms/W2/RMS-W2-D3-captions-en.vtt">Download captions.</a>
 </video>
+<p>
+<br>
+</p>
+<audio src="http://digitalfree.info/rms/W2/audio/RMS-W2-D3.ogg" controls>
+<p>Your browser does not support the <code>audio</code> element. <a href="http://digitalfree.info/rms/W2/audio/RMS-W2-D3.ogg">Download audio file (Ogg Vorbis).</a></p>
+</audio>
+
 
 <h2>2.4. War on Sharing. Precarity</h2>
 
@@ -152,8 +173,14 @@ If server software is free, it does not help the users. It benefits only the ser
   <source src="http://digitalfree.info/rms/W2/RMS-W2-D4.webm" type="video/ogg">
  <track src="http://digitalfree.info/rms/W2/RMS-W2-D4-captions-en.vtt" label="English captions" kind="captions" srclang="en-us" default>
 <a href="http://digitalfree.info/rms/W2/RMS-W2-D4.webm">Download video.</a> <a href="http://digitalfree.info/rms/W2/RMS-W2-D4-captions-en.vtt">Download captions.</a>
-
 </video>
+<p>
+<br>
+</p>
+<audio src="http://digitalfree.info/rms/W2/audio/RMS-W2-D4.ogg" controls>
+<p>Your browser does not support the <code>audio</code> element. <a href="http://digitalfree.info/rms/W2/audio/RMS-W2-D4.ogg">Download audio file (Ogg Vorbis).</a></p>
+</audio>
+
 
 
 <h2>Additional materials</h2>
