@@ -27,6 +27,7 @@ The following free tools were used in order to prepare this course:
 - [PGF/TikZ http://en.wikipedia.org/wiki/PGF/TikZ] to draw nice [mindmap http://digitalfree.info/rms/W1/FourFreedomsPatents.pdf]
 - [ffmpeg https://www.ffmpeg.org/] and [Kdenlive https://kdenlive.org/] for video postprocessing
 - [Subtitleeditor http://home.gna.org/subtitleeditor/] to create subtitles
+- [extm3u.pl http://www.splitbrain.org/projects/extm3u.%C2%A0] to create playlists
 - [GNU Make https://www.gnu.org/software/make/] to put it all together
 - [Vim http://www.vim.org/about.php] was used as an editor ( sorry, rms! [Emacs http://www.gnu.org/software/emacs/] is great editor too, everybody knows  :-) )
 
