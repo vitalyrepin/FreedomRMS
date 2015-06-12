@@ -26,28 +26,6 @@
 \makeindex
 \makenomenclature
 
-%% For printing acronyms with the bold first letters
-%% MUA --- \Acronym{Mail User Agent}
-\makeatletter
-\def\wordbyword#1#2{%
-\let\@mymacro#1\relax
-\@wordbyword#2 \@nil
-}
-\def\@wordbyword#1 #2\@nil{%
-\@mymacro{#1}%
-\ifx\relax#2\relax
-\let\next\@gobble
-\else
-\let\next\@wordbyword
-\fi
-\next#2\@nil
-}
-\makeatother
-\def\fontify#1{\MyFont #1 }
-\def\FirstLetterFont#1#2{\def\MyFont{#1}\wordbyword{\fontify}{#2}}
-\newcommand{\Acronym}[1]{\FirstLetterFont{\textbf}{#1}}
-%% End of the acronyms macros
-
 \renewcommand{\nomlabel}[1]{\textbf{#1}\hfil}
 \newcommand{\addnom}[2]{\nomenclature{#1}{#2}}
 
