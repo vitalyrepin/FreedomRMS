@@ -5,7 +5,7 @@ ADDDEPS=fourfreedoms.tex quiz1.tex quiz2.tex quiz3.tex quiz4.tex quiz5.tex
 
 IMAGES=
 
-GOALS = $(MAIN_FNAME).dvi $(MAIN_FNAME).pdf
+GOALS = $(MAIN_FNAME).pdf
 DVIFILES = $(MAIN_FNAME).dvi
 
 COPY = if test -r $*.toc; then cp $*.toc $*.toc.bak; fi
