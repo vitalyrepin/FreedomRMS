@@ -1,0 +1,78 @@
+
+\newcommand{\myhref}[2]{#2}
+\definecolor{light-gray}{gray}{0.97}
+
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+\begin{center}
+\rotatebox{90}{\resizebox{!}{.7\textheight}{\begin{tikzpicture}[mindmap,
+every node/.style={concept,execute at begin node=\hskip0pt},
+root concept/.append style={
+concept color=black, fill=white, line width=1ex, text=black,minimum size=3cm,text width=3cm,font=\large\scshape},
+text=black,
+concept color=light-gray, grow cyclic,
+level 1/.append style={level distance=3.7cm,sibling angle=90},
+level 2/.append style={level distance=3cm,sibling angle=45},
+level 3/.append style={level distance=2.3cm,sibling angle=45},
+remark/.style={
+rectangle,
+sloped,
+minimum size=4mm,
+very thin,
+color=white,
+text=black,
+font=\itshape
+}]
+\node[root concept] (root) {Human rights in computing}
+  child [concept] {node {\myhref{https://www.gnu.org/philosophy/free-software-intro.html}{Free software movement}}
+  	child [concept] {node {Freedom for people using software}}
+	child [concept] {node (fsf) {\myhref{https://groups.google.com/forum/\#!msg/net.unix-wizards/8twfRPM79u0/1xlglzrWrU0J}{Start: September, 1983}}}
+  }
+ child [concept] {node (gnulnx) {\myhref{https://www.gnu.org/gnu/linux-and-gnu.html}{GNU/Linux}}
+  	child [concept] {node {\myhref{http://en.wikipedia.org/wiki/Unix}{UNIX}-like system}}
+	child [concept] {node {\myhref{http://www.gnu.org/}{GNU's Not Unix}}}
+	child [concept] {node {1992: First free OS}
+		child [concept] {node {Almost all OS is ready}}
+		child [concept] {node {\myhref{http://web.archive.org/web/20110721105526/http://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12}{Linux kernel became free}}}
+	}
+	child [concept] {node {Nonfree sw on top of GNU/Linux limits your freedom}
+		child [concept] {node {Most \myhref{http://www.gnu.org/distros/}{distros} contain nonfree sw}}
+	}
+  }
+  child [concept] { node (fourfr) {Four Freedoms}
+	child [concept] { node {3: Distribute modified versions}}
+	child [concept] { node {2: Redistribution}
+       		child [concept] {node {Basic moral rule - help your friends}}
+        }
+	child [concept] { node {1: Study and change the sources}}
+        child [concept] { node {0: Run the program as you wish}}
+  }
+  child [concept] { node {How to judge the program?}
+	child [concept] {node (freesw) {\myhref{https://www.gnu.org/philosophy/free-sw.html}{Free software}}
+		child [concept] {node {User controls the program}}
+	}
+        child [concept] { node {What it does for my freedom?}
+		child [concept] { node {\myhref{https://www.gnu.org/philosophy/selling.html}{"Free" is not about price at all}}}
+	}
+	child [concept] {node {Nonfree software}
+		child [concept] {node {Program controls the user}}
+		child [concept, sibling angle=45] {node {Examples: Gratis but nonfree}
+			child [concept, sibling angle=45] {node {Adobe Flash Player}
+				child [concept] {node {DRM: restricts the user}}
+				child [concept] {node {Surveillance: Super-Cookies}}
+				child [concept] {node {Malicious}}
+			}
+			child [concept, sibling angle=45] {node {\myhref{http://stallman.org/skype.html}{Skype}}
+				child [concept] {node {Promotes nonfree software}}
+			}
+			child [concept, sibling angle=45] {node {\myhref{http://www.gnu.org/philosophy/proprietary-surveillance.html}{Angry Birds}}}
+		}
+	}
+  };
+ \begin{pgfonlayer}{background}
+  	\draw [concept connection] (fourfr) edge node[remark,above=3.5pt] {Gives} node [remark,below=3.5pt] {Four Freedoms} (freesw);
+	\draw [concept connection] (fsf) edge node[remark,above=3.5pt] {Goal: develop} node [remark,below=3.5pt] {entirely free OS} (gnulnx);
+  \end{pgfonlayer}
+\end{tikzpicture}}}
+\end{center}
+
