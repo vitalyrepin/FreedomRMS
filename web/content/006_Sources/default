@@ -12,9 +12,9 @@ page_keywords=e-learning, fsfe,  free software, open source, fsf, stallman, cour
 == Sources ==
 [../include/images/Source-code-icon.png]
 
-- The sources of this web site, captions and subtitles can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
+- The sources of this web site, captions and subtitles, handbook can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
 to the [Creative Commons licenses ../license/index.html] these materials are distributed under.
-- Video files are located in the ['rms' subfolder of this site http://digitalfree.info/rms/] and can be easily fetched with [wget https://www.gnu.org/software/wget/].
+- Video and audio files [download links. ../downloads/index.html]
 
 
 == Tools ==
