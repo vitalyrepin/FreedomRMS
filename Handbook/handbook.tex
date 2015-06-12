@@ -15,11 +15,16 @@
 \usepackage{calc}
 \usetikzlibrary{shapes.misc}
 \usetikzlibrary{mindmap}
+\usepackage{imakeidx}
+\usepackage{nomencl}
 \usepackage{wasysym}
 \usepackage[counter-within=chapter,headings=runin]{exsheets}
 
 \pdfobjcompresslevel=3
 \pdfcompresslevel=9
+
+\makeindex
+\makenomenclature
 
 %% Copyright page: http://tex.stackexchange.com/a/12574/38759
 \def\secondpage{\clearpage\null\vfill
@@ -127,34 +132,36 @@ The book has been composed in \LaTeXe.
 \end{itemize}
 
 \section[Free Software and Four Freedoms. Free GNU/Linux distros. Malicious software]{Free Software and Four Freedoms.\\ Free GNU/Linux distros.\\ Malicious software}
+\nomenclature{GNU}{GNU's Not Unix}
 \begin{itemize}
  \item    Software freedom: What is it?
  \item    Four essentials freedoms:
 \begin{enumerate}
-\setcounter{enumi}{-1}
+\setcounter{enumi}{-1}\index{Four Freedoms}
  \item        The freedom to run the program as you wish, for any purpose.
  \item        The freedom to study how the program works, and change it so it does your computing as you wish.
  \item        The freedom to redistribute copies so you can help your neighbor.
  \item        The freedom to distribute copies of your modified versions to others.
 \end{enumerate}
  \item    Why software freedoms are essential.
- \item    GNU/Linux operating system. History and current status.
- \item    Freedom as a goal. Free GNU/Linux distributions.
- \item    Features of malicious software: Digital Restrictions Management (DRM) and Surveillance.
- \item    How proprietary software is promoted by its victims: Skype example.
+ \item    GNU/Linux operating system. History and current status.\index{Software!GNU/Linux distributions}
+ \item    Freedom as a goal. Free GNU/Linux distributions.\index{Software!Free}
+ \item    Features of malicious software: Digital Restrictions Management (DRM) and Surveillance. \index{Threats!DRM} \index{Software!Malicious} \index{Software!Proprietary}
+ \item    How proprietary software is promoted by its victims: Skype example.\index{Software!Skype}
  \item    Free software is a matter of liberty, not price.
 \end{itemize}
 
 
 \section{Computational idea patents and why they are bad. Real-life examples}
 \begin{itemize}
- \item    What is computational idea patent?
+ \item    What is computational idea patent? \index{Patents}
  \item    Why computational idea patents are bad?
 \begin{itemize}
  \item        Patents and copyrights are totally different things.
  \item        Analogy with music: imagine that there are musical idea patents (e.g., for melody).
  \item        Writing a program (as well as writing a symphony): combination of new and familiar ideas.
  \item        Computational idea patents in real life: LZW and natural order recalculation examples.
+ \nomenclature{LZW}{Lempel–Ziv–Welch}
 \end{itemize}
 \end{itemize}
 
@@ -170,11 +177,11 @@ The book has been composed in \LaTeXe.
 \section[Digital Society: Inclusion or Escape? Surveillance, censorship, restricting the users]{Digital Society: Inclusion or Escape?\\ Surveillance, censorship, restricting the users}
 
 \begin{itemize}
-  \item     Shall we aim for inclusion to or escape from the Digital Society?
+  \item     Shall we aim for inclusion to or escape from the Digital Society?\index{Digital Society}
   \item     What are the threats to the Digital Society? Overview.
   \item     Threat 1: Surveillance.
 \begin{itemize}
-  \item         Surveillance and Democracy: how are they compatible?
+  \item         Surveillance and Democracy: how are they compatible? \index{Threats!Surveillance}
   \item         Who watches the watchmen? Why society needs whistleblowers.
   \item         Common engineering practice of the day: keep all the data you can.
   \item         Three ways to spy on people. Examples and the ways to react:
@@ -185,16 +192,17 @@ The book has been composed in \LaTeXe.
 \end{itemize}
   \item         Data from business surveillance systems is available to the state.
 \end{itemize}
-  \item     Threat 2: Censorship.
+  \item     Threat 2: Censorship. \index{Threats!Censorship}
 \begin{itemize}
   \item         Censorship in Internet: "filtration".
   \item         Country examples (Europe, Asia, ...).
-  \item         Propaganda methods: using disgusting things (e.g., child pornography) to advocate censorship tools.
+  \item         Propaganda methods: using disgusting things (e.g., child pornography) to advocate censorship tools.\index{Propaganda}
 \end{itemize}
   \item     Threat 3: Data formats that restrict their users.
 \begin{itemize}
   \item         Digital handcuffs.
-  \item         DRM: Digital Restrictions Management.
+  \item         DRM: Digital Restrictions Management. \index{Threats!DRM}
+\nomenclature{DRM}{Digital Restrictions Management / Digital Rights Management}
   \item         Reasons why secret data formats exist.
 \end{itemize}
 \end{itemize}
@@ -202,14 +210,14 @@ The book has been composed in \LaTeXe.
 \section[Threats from software that the user do not control]{Threats from software that\\ the user do not control}
 \begin{itemize}
  \item    There are only two options: the users controls the program OR the program controls the users.
- \item    Backdoors and Universal Backdoors.
- \item    Real-life examples: Amazon Swindle, portable phones.
+ \item    Backdoors and Universal Backdoors. \index{Threats!Backdoor}
+ \item    Real-life examples: Amazon Swindle, portable phones. \index{Swindle}
 \end{itemize}
 
 
 \section[Threats from Service as a Software Substitute]{Threats from Service\\ as a Software Substitute}
 \begin{itemize}
- \item    SaaSS: new way to lose control over your computing.
+ \item    SaaSS: new way to lose control over your computing.\index{Threats!SaaSS}
  \item    SaaSS: how it works. Technical explanation.
  \item    SaaSS is equivalent to running non-free program with universal backdoor which makes it proprietary malware.
  \item    Paradoxical relationships between SaaSS and free/non-free software.
@@ -226,31 +234,34 @@ The book has been composed in \LaTeXe.
 \end{itemize}
 
 
-\section{War on Sharing. Precarity}
+\section{War on Sharing. Precarity}\index{Threats!Precarity}
 \begin{itemize}
  \item    What is sharing and why it is good.
  \item    Attack on sharing is an attack on social cooperation.
  \item    Two kinds of works:
 \begin{itemize}
- \item        Works we need to do practical jobs (e.g. reference works, educational works): should be free.
+ \item        Works we need to do practical jobs (e.g. reference works, educational works): should be free.\index{Authorship}
  \item        Others (e.g. entertainment, opinion, art) should be freely shareable.
 \end{itemize}
  \item    Ways to attack sharing:
 \begin{itemize}
  \item        Laws which forbid sharing.
- \item        Propaganda. Terms like "Piracy" and "Theft":
+ \item        Propaganda. Terms like "Piracy" and "Theft":\index{Sharing}\index{Piracy}
  \item            Reject propaganda terms! Attacking ship is very bad, sharing is good.
  \item            Legally speaking, copyright infringement is never theft. Sometimes it's a crime, sometimes not. But is it NEVER a theft.
  \item        Publishing of the works using secret formats with the purpose to restrict the public:
- \item            DVD "conspiracy": if you want to manufacture DVD player, you need to join the conspiracy. No competition in this important part of DVD player functionality! 
- \item        DMCA: Digital Millennium Copyright Act:
+ \item            DVD "conspiracy": if you want to manufacture DVD player, you need to join the conspiracy. No competition in this important part of DVD player functionality!
+ \nomenclature{DVD}{Digital Versatile Disc}
+ \item        DMCA: Digital Millennium Copyright Act: \index{Threats!DMCA}
+\nomenclature{DMCA}{Digital Millennium Copyright Act}
 \begin{itemize}
  \item            Banning distribution of free software which allows to read DVDs in the secret format.
  \item            Similar laws in EU and other countries.
 \end{itemize}
- \item        DRM: Digital Restrictions Management:
+ \item        DRM: Digital Restrictions Management: \index{Threats!DRM}
 \begin{itemize}
  \item            Introduced by AACS (Advanced Access Content System) "conspiracy".
+ \nomenclature{AACS}{Advanced Access Content System}
  \item            Example of AACS power: they managed to ban analog video outputs.
 \end{itemize}
  \item        Disconnect people from Internet when they are \emph{accused} of sharing (without a trial):
@@ -261,9 +272,11 @@ The book has been composed in \LaTeXe.
  \item    Controlling what our technology does is a worse attack on society than controlling prices. It shall be treated as more grave crime.
  \item    Usage of Internet is precarious:
 \begin{itemize}
- \item        You need to cooperate with ISP, DNS registrar, other companies in order to do your tasks.
+ \item        You need to cooperate with ISP, DNS registrar, other companies in order to do your tasks.\index{ISP}
+\nomenclature{ISP}{Internet Service Provider}
+\nomenclature{DNS}{Domain Name System}
  \item        Typically the contracts you sign are so, that they can be canceled for any reason by service provider.
- \item        Example: Dirty Tricks campaign against WikiLeaks.
+ \item        Example: Dirty Tricks campaign against WikiLeaks.\index{WikiLeaks}
  \item        Analogy: imagine that government convinces your phone or electrical company that it's in their interest to stop serving you.
  \item        Regulation is needed like for other public utilities: no right to disconnect if I pay according to the contract, no way to discriminate single customer etc.
 \end{itemize}
@@ -275,19 +288,19 @@ The book has been composed in \LaTeXe.
 \sethead{Week 3. Copyright and Copyleft}
 \section{Free Software Licenses. Introduction}
 \begin{itemize}
-\item    Why does a free program have a license?
+\item    Why does a free program have a license?\index{Licenses}
 \begin{itemize}
  \item        Everything which is written (including programs) have a license automatically. "Default" (silent) license does not allow people to modify and distribute programs.
  \item        Typical proprietary license: a contract which restricts users even more than copyright laws.
  \item        Free software license: gives back to the users their rights which were taken by copyright laws.
 \end{itemize}
- \item    Copyleft and non copyleft free software licenses.
+ \item    Copyleft and non copyleft free software licenses.\index{Licenses!Copyleft}\index{Licenses!Copyright}
 \begin{itemize}
  \item        In order for the license to be free software license it shall give the users four essential freedoms (see lecture 1.2). There are many ways to do it which explains why there are many free software licenses.
  \item        Big dichotomy among free software licenses: copyleft and non copyleft.
  \item        Copyleft does not allow the user to take free software and make it non free (even after making modifications to the software).
 \begin{itemize}
- \item            The problem is real. E.g., TeX. Its UNIX implementation was made non free while original Knuth's implementation was free (but distributed under non copyleft license).
+ \item            The problem is real. E.g., TeX. Its UNIX implementation was made non free while original Knuth's implementation was free (but distributed under non copyleft license).\index{Software!TeX@\TeX}
  \item            Copyleft idea: to give the freedom to the "next" users of the program.
 \end{itemize}
 \end{itemize}
@@ -295,10 +308,10 @@ The book has been composed in \LaTeXe.
 
 \section{GNU GPL and Affero GPL: Copyleft licenses}
 \begin{itemize}
- \item     GNU General Public License: GPL.
+ \item     GNU General Public License: GPL.\index{Licenses!GPL}\index{Licenses!Copyleft}
 \begin{itemize}
  \item         Copyleft license
- \item         Originally GPL was developed as a license to distribute GNU system under. GPL 3 is designed for other kind of work also.
+ \item         Originally GPL was developed as a license to distribute GNU system under. GPL 3 is designed for other kind of work also.\index{Licenses!GPL}
  \item         GPL prohibits a lot of different means to make free software non-free. Examples:
 \begin{itemize}
  \item             \emph{Release only binaries.} GPL requires source code to be available.
@@ -306,19 +319,22 @@ The book has been composed in \LaTeXe.
  \item             \emph{Patent.} It's not allowed to use patents to limit the freedom of software distributed under GPL.
 \end{itemize}
 \end{itemize}
- \item     Other free software licenses are non copyleft. Some of them are very weak ("pushover licenses" allow almost everything). There are also weak copyleft licenses. E.g., Mozilla Public License (MPL):
+ \item     Other free software licenses are non copyleft. Some of them are very weak ("pushover licenses" allow almost everything). There are also weak copyleft licenses. E.g., Mozilla Public License (MPL):\index{Licenses!Pushover}
 \begin{itemize}
- \item         Files which were received under MPL shall be distributed under the same license (MPL) but new files can be added with different license.
+ \item         Files which were received under MPL shall be distributed under the same license (MPL) but new files can be added with different license.\index{Licenses!MPL}
+\nomenclature{MPL}{Mozilla Public License}
  \item         Way to make free software non free: add new source code files under other license and call the new subroutines defined there from original files.
 \end{itemize}
- \item     GNU Affero General Public License: AGPL.
+ \item     GNU Affero General Public License: AGPL.\index{Licenses!AGPL}
 \begin{itemize}
  \item         Secondary effect of copyleft: because modifications are free, developer of the original version cat take them and incorporate to the original software. This is the way to contribute to the community's shared knowledge.
  \item         Installing modified GPL software on the server is not its distribution. Hence, it's not needed to make the source code available. Therefore second effect of copyleft does not work.
  \item         AGPL addresses this problem. It requires source code to be available if the software runs on server and is available to others.
  \item         Relation to SaaSS (see also lecture 2.3):
+\nomenclature{AGPL}{GNU Affero General Public License}
+\nomenclature{GPL}{GNU General Public License}
 \begin{itemize}
- \item             No contradiction with "SaaSS is bad" logic: there are many server software which is not SaaSS and which needs AGPL protection.
+ \item             No contradiction with "SaaSS is bad" logic: there are many server software which is not SaaSS and which needs AGPL protection.\index{Threats!SaaSS}\index{Licenses!AGPL}
  \item             No license can make SaaSS ethical. The only way to solve the problem is to take server code and execute it by the user.
 \end{itemize}
 \end{itemize}
@@ -327,21 +343,23 @@ The book has been composed in \LaTeXe.
 
 \section{Non copyleft and weak copyleft licenses}
 \begin{itemize}
- \item    Sometimes there are advantages in using non copyleft license.
+ \item    Sometimes there are advantages in using non copyleft license.\index{Licenses!Weak copyleft}\index{Licenses!Pushover}
 \begin{itemize}
- \item        \emph{Ogg/Vorbis player.} It was considered as very important for all music players to be able to support this free format. That's why Ogg/Vorbis codec was distributed under non copyleft license: Apache 2.0 License.
- \item        Recommended non copyleft license to use: Apache 2.0. Reason: patent protection
+ \item        \emph{Ogg/Vorbis player.} It was considered as very important for all music players to be able to support this free format. That's why Ogg/Vorbis codec was distributed under non copyleft license: Apache 2.0 License.\index{Data Formats!Ogg/Vorbis}
+ \item        Recommended non copyleft license to use: Apache 2.0. Reason: patent protection \index{Licenses!Apache 2.0}
 \end{itemize}
  \item    BSD licenses: original and modified (revised):
 \begin{itemize}
  \item        These licenses are very different. Don't state "The code is distributed under BSD license". The question is --- \emph{which} BSD license?
  \item        Important difference: advertising requirements.
- \item        Original BSD license is not recommended to be used to distribute new software under.
+ \item        Original BSD license is not recommended to be used to distribute new software under.\index{Licenses!BSD}
+ \nomenclature{BSD}{Berkeley Software Distribution}
 \end{itemize}
  \item    Other free software licenses:
 \begin{itemize}
- \item        X11, Expat licenses are not "MIT licenses". They are different licenses. Refer to each one specifically.
- \item        FSF: Various Licenses and Comments about Them
+ \item        X11, Expat licenses are not "MIT licenses". They are different licenses. Refer to each one specifically.\index{Licenses!MIT}\index{Licenses!X11}
+\nomenclature{MIT}{Massachusetts Institute of Technology}
+ \item        FSF: Various Licenses and Comments about them \nomenclature{FSF}{Free Software Foundation}
  \item        FSF: How to choose a license for your own work
 \end{itemize}
 \end{itemize}
@@ -350,7 +368,7 @@ The book has been composed in \LaTeXe.
 
 \savebox{\wkurl}{\descurl{http://digitalfree.info/w4}}
 \chapter[Week 4. Works of Authorship in the Free Digital Society. History, Philosophy, Practice]{Works of Authorship in\\ the Free Digital Society.\\ History, Philosophy, Practice}
-\sethead{Week 4. Works of Authorship}
+\sethead{Week 4. Works of Authorship}\index{Authorship}
 \section{History of Copyright Law}
 \begin{itemize}
  \item    Our basic principles are deep, technology is superficial. But it can make the very same act more or less good.
@@ -362,7 +380,7 @@ The book has been composed in \LaTeXe.
  \item        Required equipment: only ''equipment'' needed to read and write.
  \item        Decentralized system of copying. Nothing like copyright law.
 \end{itemize}
- \item    Copyright and censorship were closely related throughout the history.
+ \item    Copyright and censorship were closely related throughout the history.\index{Licenses!Copyright}\index{Threats!Censorship}
  \item    Copying in the age of printing press:
 \begin{itemize}
  \item        Economy of scale.
@@ -377,7 +395,7 @@ The book has been composed in \LaTeXe.
  \item        Idea of copyright: scheme which encourages writing.
  \item        US Constitution (1788) allows congress to create a copyright system with the purpose to promote progress. Copyright can not be perpetual, only time-limited.
 \end{itemize}
- \item    In the age of printing press copyright was used as an industry regulation tool. It regulated publishers and was controlled by authors. Copyright law was:
+ \item    In the age of printing press copyright was used as an industry regulation tool. It regulated publishers and was controlled by authors. Copyright law was:\index{Printing Press}
 \begin{itemize}
  \item        \emph{Mostly uncontroversial} because it restricted the publishers and not the readers. If you are not a publisher, you don't have strong reasons to object.
  \item        \emph{Easy to enforce} because it was easy to understand who published certain book. No need to visit every reader to enforce the copyright law.
@@ -387,7 +405,7 @@ The book has been composed in \LaTeXe.
 
 \section{Copyright in the digital age }
 \begin{itemize}
- \item    Computer networks --- new advance in the technology of copying.
+ \item    Computer networks --- new advance in the technology of copying.\index{Licenses!Copyright}\index{Computer networks}
  \item    Copying became more effective and benefit of printing press in mass production almost disappeared.
  \item    Situation now reminds antiquity with the difference in efficiency of copying.
  \item    Copyright law now restricts everyone and controlled mostly by the publishers in the name of authors.
@@ -402,41 +420,45 @@ The book has been composed in \LaTeXe.
  \item        Wave of copyright time extensions all over the world. Examples:
 \begin{itemize}
  \item            EU: extended copyright time for sound records and textual work.
- \item            USA: Mickey mouse copyright act (20 years extension of copyright time).
+\nomenclature{EU}{European Union}
+\nomenclature{USA}{United States of America}
+ \item            USA: Mickey mouse copyright act (20 years extension of copyright time).\index{Threats!Mickey Mouse Copyright Act}
 \end{itemize}
  \item        Real reasons to extend copyright time --- companies had valuable rights which were about to expire.
  \item        We are on a way to perpetual copyright with constant extension of copyright law.
  \item        Mexico example: copyright validity time is 100 years after author's death.
  \item        Previously copyright was an exception and not a general rule. Not anymore. Publishers try to have total control over public through digital technologies (Digital Restrictions Management).
- \item        Attempts to take total control over public are made with non-free software --- it's not possible to do this with the help of free software.
+ \item        Attempts to take total control over public are made with non-free software --- it's not possible to do this with the help of free software.\index{Software!Free}
 \end{itemize}
 \end{itemize}
 
 \section{Digital distribution: Ethical and Unethical}
 \begin{itemize}
- \item     What is wrong with Amazon ''Swindle''?
+ \item     What is wrong with Amazon ''Swindle''?\index{Swindle}
  \item     ''Swindle'' is an appropriate name for Amazon's e-reader because it swindles readers out of the traditional freedoms of readers:
 \begin{itemize}
  \item         \emph{Freedom to buy a book anonymously.} Amazon requires its readers to identify themselves and maintain a list with the books which were read by the user. Existence of this list is dangerous for the fundamental human rights. But Swindle also reports to Amazon the pages which are read, sends notes and highlights to Amazon. Swindle is a complete surveillance of reading device.
- \item         \emph{Freedom to give a book to a friend, to sell it through used book store.} Swindle End User License Agreement (EULA) rejects an idea of property --- the book is owned by Amazon, not by the user! ''Swindle'' DRM and EULA together swindle readers out of this right.
- \item         \emph{Freedom to keep a book as long as you wish.} Amazon can remotely delete books from Swindle and was doing it already ("1984" case).
- \item         Swindle has universal backdoor (autoupgrade, see lecture 2.2) which means additional restrictions can be installed later by Amazon.
+ \item         \emph{Freedom to give a book to a friend, to sell it through used book store.} Swindle End User License Agreement (EULA) rejects an idea of property --- the book is owned by Amazon, not by the user! ''Swindle'' DRM and EULA together swindle readers out of this right.\index{Threats!DRM}
+ \item         \emph{Freedom to keep a book as long as you wish.} Amazon can remotely delete books from Swindle and was doing it already ("1984" case).\index{Orwell, ''1984''}
+ \item         Swindle has universal backdoor (autoupgrade, see lecture 2.2) which means additional restrictions can be installed later by Amazon.\index{Swindle}
 \end{itemize}
  \item     Swindle is not the only malicious e-reader device: most of other e-readers are doing a lot of snooping too.
  \item     Requirements to be met in order for digital distribution to be ethical:
 \begin{itemize}
- \item         No DRM (Digital Restrictions Management).
+ \item         No DRM (Digital Restrictions Management).\index{Threats!DRM}
  \item         No EULA --- books shall be your property.
+\nomenclature{EULA}{End-User License Agreement }
  \item         Possibility to purchase anonymously.
 \end{itemize}
  \item     Currently in most cases distribution of digital copies over Internet is ethically worse than distribution of physical copies.
- \item     The same problems arise with audio and video (e.g., DRM is used with streaming services).
+ \item     The same problems arise with audio and video (e.g., DRM is used with streaming services).\index{Threats!DRM}
 \end{itemize}
 
 
 \section[The Why, What and How of Creative Commons]{The Why, What and How\\ of Creative Commons}
-\begin{itemize}
-  \item     Different Creative Commons (CC) licenses give more or less freedoms:
+\begin{itemize} \index{Authorship}
+  \item     Different Creative Commons (CC) licenses give more or less freedoms:\index{Licenses!Creative Commons}
+  \nomenclature{CC}{Creative Commons}
 \begin{itemize}
   \item         Six main CC licenses. Two of them are free.
   \item         CC BY --- push over license. CC BY SA --- copyleft license
@@ -459,19 +481,19 @@ The book has been composed in \LaTeXe.
 \sethead{Week 5. Digital lifestyle to support freedom}
 \section[Be careful which programs and services to use]{Be careful which programs\\ and services to use }
 \begin{itemize}
- \item    Facebook is a monstrous surveillance engine.
+ \item    Facebook is a monstrous surveillance engine.\index{Facebook}
 \begin{itemize}
  \item        Facebook does surveillance on its useds and not useds as well. Call them "useds" rather than "users" because Facebook is using them, not vice versa.
  \item        Publishing somebody's photo in Facebook is treating him or her badly. Exception --- public events.
 \end{itemize}
   \item   Distribute data in formats favorable to the free software.
 \begin{itemize}
- \item        Ogg Vorbis, webm. NO MP*, NO Flash, NO quicktime and other non-free formats.
+ \item        Ogg/Vorbis, Webm. NO MP*, NO Flash, NO quicktime and other non-free formats.\index{Data Formats!Ogg/Vorbis} \index{Data Formats!Webm} \index{Data Formats!Flash} \index{Data Formats!QuickTime}\index{Data Formats!MP*}
  \item        If your hardware records the data in non-free format convert files to the free formats before distributing.
- \item        Make sure the platform you use to distribute the files does not lead the users to use non-free software (e.g., YouTube has non-free JavaScript and Flash).
+ \item        Make sure the platform you use to distribute the files does not lead the users to use non-free software (e.g., YouTube has non-free JavaScript and Flash).\index{Youtube} \index{JavaScript}
 \end{itemize}
-  \item   Carefully select the programs and devices you use: avoid DRM, spyware, malware, proprietary jails.
-  \item   Don't use products that steal your freedom. E.g., Amazon "Swindle".
+  \item   Carefully select the programs and devices you use: avoid DRM, spyware, malware, proprietary jails.\index{Threats!DRM}
+  \item   Don't use products that steal your freedom. E.g., Amazon "Swindle".\index{Swindle}
  \item    Mobile phones --- mobile computers with outstanding surveillance capabilities. Stalin's dream.
  \item    Protect your personal data --- it can be misused! (e.g., wi-fi access which requires your identity).
 \end{itemize}
@@ -480,13 +502,13 @@ The book has been composed in \LaTeXe.
 \begin{itemize}
  \item     Free GNU/Linux distributions:
 \begin{itemize}
- \item         List of Free Linux Distributions: BLAG, gNewSense etc
+ \item         List of Free Linux Distributions: BLAG, gNewSense etc\index{GNU}\index{Software!GNU/Linux}
  \item         Well-known GNU/Linux distros continue to have non-free software!
 \end{itemize}
  \item     Non-free parts in Linux: firmware. Binaries masqueraded as source-code.
- \item     Free GNU/Linux distributions contain only free software (hence, do not contain non-free firmware). As a result not all the hardware works.
+ \item     Free GNU/Linux distributions contain only free software (hence, do not contain non-free firmware). As a result not all the hardware works.\index{Software!Firmware} \index{Software!Free}
  \item     Tolerate inconvenience if your aim is freedom. Otherwise you will lose your freedom.
- \item     Reject proprietary software. No matter how useful it is.
+ \item     Reject proprietary software. No matter how useful it is.\index{Software!Proprietary}
  \item     Prefer releasing no program to releasing proprietary program. Reason: releasing proprietary program harms society. If you do not release program at all you don't harm society at least.
  \item     Free Software Directory
 \end{itemize}
@@ -494,7 +516,7 @@ The book has been composed in \LaTeXe.
 
 \section{Education and Free Software}
 \begin{itemize}
- \item    Four reasons to use free software in education:
+ \item    Four reasons to use free software in education:\index{Education}
 \begin{enumerate}
  \item        \emph{Saving money.} Most superficial reason. Proprietary software companies started to give gratis or nearly gratis copies of their software to the educational institutions.
  \item        \emph{Educational system should not make society depending on the proprietary software.} Schools shall reject gratis copies of proprietary software for the same reasons they reject free samples of addictive drugs for the students.
@@ -517,7 +539,8 @@ The book has been composed in \LaTeXe.
  \item        Web servers load to your browser JavaScript programs. Typically they execute them silently --- without letting the users know.
  \item        Many of these programs are non-free
 \end{itemize}
- \item    GNU LibreJS: Free JavaScript in your browser:
+ \item    GNU LibreJS: Free JavaScript in your browser:\index{JavaScript}\index{Software!LibreJS}
+\nomenclature{JS}{JavaScript}
 \begin{itemize}
  \item        Free add-on for Mozilla-based browsers (e.g., Firefox).
  \item        Checks all JavaScript code which is about to be executed by the browser. Blocks the code if it is non-trivial or non-free. Informs the user about blocked JavaScript in the page.
@@ -529,14 +552,14 @@ The book has been composed in \LaTeXe.
  \item        To make sure that all the JavaScript executed in the browser is free is only a first step.
  \item        Need to be able to easily change the code and exchange it with others. Challenging task.
 \end{itemize}
- \item    Switch to free browser: GNU IceCat:
+ \item    Switch to free browser: GNU IceCat:\index{Software!GNU IceCat}
 \begin{itemize}
  \item        Mozilla-based.
- \item        Removed Firefox name and logo because they have imposed non-free restrictions.
+ \item        Removed Firefox name and logo because they have imposed non-free restrictions.\index{Facebook}\index{Google}
  \item        Extensions list: modified in such a way that only free extensions are listed.
  \item        Does not send the addresses you've visited to google (privacy).
  \item        Tracking mechanisms are blocked (e.g., Facebook "Like" button, Google analytics etc).
- \item        LibreJS is active by default.
+ \item        LibreJS is active by default.\index{Software!GNU LibreJS}
 \end{itemize}
 \end{itemize}
 
@@ -545,32 +568,32 @@ The book has been composed in \LaTeXe.
 \begin{itemize}
  \item    Celebrate Freedom Fighters.
 \begin{itemize}
- \item        Edward Snowden is a hero. Many people are trying to demonise him. It's important to celebrate him and the people like him.
+ \item        Edward Snowden is a hero. Many people are trying to demonise him. It's important to celebrate him and the people like him.\index{Freedom Fighters}
 \end{itemize}
  \item    Warn your friends about dangerous products.
 \begin{itemize}
- \item        Example: Amazon Kindle. It makes people antisocial, divides them. Make sure your friends know this before they decide to use this product.
+ \item        Example: Amazon Kindle. It makes people antisocial, divides them. Make sure your friends know this before they decide to use this product.\index{Swindle}
  \end{itemize}
  \item    Promote free software in your educational institution:
  \begin{itemize}
- \item        It's your responsibility to campaign for free software in your educational institution!
+ \item        It's your responsibility to campaign for free software in your educational institution!\index{Education}
  \item        Setting up reverse engineering classes is very important. We need to operate the hardware with secret specifications without non-free software.
  \end{itemize}
- \item    Reject propaganda terms:
+ \item    Reject propaganda terms: \index{Propaganda}
  \begin{itemize}
- \item        E.g., "Piracy", "Theft". It is not right to call Sharing this way (see also lecture 2.4 "War on Sharing").
+ \item        E.g., "Piracy", "Theft". It is not right to call Sharing this way (see also lecture 2.4 "War on Sharing").\index{Piracy}\index{Sharing}
  \item        Good way to reject propaganda is to use jokes and humor. E.g., "Piracy? Attacking ships is very bad. Movie piracy? Pirates of the Caribbean is a good movie".
  \end{itemize}
  \item    Join Defective by Design movement:
  \begin{itemize}
- \item        More about Digital Restrictions Management (DRM) --- see in the lecture 2.4 "War on Sharing".
+ \item        More about Digital Restrictions Management (DRM) --- see in the lecture 2.4 "War on Sharing". \index{Threats!DRM}
  \item        This campaign shall be big. Don't expect that the battle will be won without you.
  \end{itemize}
  \item    Upgrade from Windows! It's not possible to live in freedom with Windows. Any version of Windows. Don't downgrade to Windows Vista at least.
- \item    Learn how to make easy changes:
+ \item    Learn how to make easy changes: \index{Four Freedoms}
  \begin{itemize}
  \item        Anybody can exercise Freedoms 0 and 2 (see lecture 1.2) --- \emph{the freedom to run the program as you wish, for any purpose} and \emph{the freedom to redistribute copies so you can help your neighbor.}
- \item        Freedoms 1 and 3 (see lecture 1.2: \emph{the freedom to study how the program works, and change it so it does your computing as you wish} and \emph{the freedom to distribute copies of your modified versions to others}) require programming skills.
+ \item        Freedoms 1 and 3 (see lecture 1.2: \emph{the freedom to study how the program works, and change it so it does your computing as you wish} and \emph{the freedom to distribute copies of your modified versions to others}) require programming skills.\index{Four Freedoms}
  \item        It's useful to learn how to make easy changes in the software. You don't need to become software engineer in order to be able to do them. Analogy: it's useful to know how to make small maintenance of your car even if you are not a professional mechanic.
 \end{itemize}
 \end{itemize}
@@ -582,7 +605,7 @@ The book has been composed in \LaTeXe.
 \renewcommand{\sethead}[1]{\markboth{\MakeUppercase{#1}}{}\renewcommand{\mymark}{\MakeUppercase{\appendixname}~A}}
 
 \addcontentsline{toc}{part}{Appendices}
-\savebox{\wkurl}{\descurl{http://digitalfree.info/}}
+\savebox{\wkurl}{}
 \chapter{Answers to quizzes}
 \sethead{Answers to quizzes}
 
@@ -600,5 +623,34 @@ The book has been composed in \LaTeXe.
 
 \section{Quiz 5}
 \printsolutions[chapter={5}]
+
+\chapter{List of Abbreviations}
+\sethead{List of Abbreviations}
+\cleardoublepage
+
+%% We don't need \chapter to be issues. Redefined nomenclature environment
+\makeatletter
+\def\thenomenclature{%
+  \nompreamble
+  \list{}{%
+    \labelwidth\nom@tempdim
+    \leftmargin\labelwidth
+    \advance\leftmargin\labelsep
+    \itemsep\nomitemsep
+    \let\makelabel\nomlabel}}
+\makeatother
+
+\printnomenclature
+
+\chapter{Index}
+\sethead{Index}
+\cleardoublepage
+
+%% Don't want \chapter or \section to be generated by \printindex
+\renewcommand{\section}[1]{}
+\renewcommand{\chapter}[1]{}
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\indexname}{\vspace*{-1cm}}
+\printindex
 
 \end{document}
