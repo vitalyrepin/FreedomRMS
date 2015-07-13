@@ -1,0 +1,15 @@
+---
+title: "Licensing information"
+layout: page
+permalink: "license/index.html"
+summary: "Road to the Free Digital Society. Licensing information."
+tags: [e-learning, fsfe,  free software, open source, fsf, stallman, course]
+---
+
+== Video and audio materials ==
+
+All the videos and audios included in the course are licensed under [CC BY ND 4.0 http://creativecommons.org/licenses/by-nd/4.0/] license. The reasons why it is done this way are explained in the lectures 
+of week four. The same approach is used with the [videos hosted at GNU site https://audio-video.gnu.org/video/].
+
+== Everything else ==
+All other course materials are licensed under [CC BY SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/] license if not stated otherwise.

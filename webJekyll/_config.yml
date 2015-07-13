@@ -1,0 +1,89 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: "/:title"
+relative_permalinks: true
+
+highlighter: pygments
+
+timezone: Europe/Helsinki
+
+# Default YAML frontmatter settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
+
+# Facebook settings
+fb_admins:          606660677
+avatar:             "/public/images/book-cover.png"
+locale:             en_US
+
+# Image settings
+image_base:          /public/images/
+
+# Do not copy these file to the output directory
+exclude: ["transfer.sh", README.md]
+
+#fb_appid:           337414769782635
+
+# Setup
+title:               Road to the Free Digital Society
+tagline:             Course on Free Digital Society from Richard Matthew Stallman
+url:                 "http://digitalfree.info"
+#url: "http://localhost:4000"
+paginate:            4
+baseurl:             "/FreeDigitalSociety"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Vitaly Repin
+  url:               http://vrepin.org
+  email:             vitaly_repin@fsfe.org
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/vitalyrepin/FreedomRMS/
+
+# Google sitemap generation
+gems:
+  - jekyll-sitemap
+
+# Conversion
+markdown:    kramdown
+excerpt_separator: "<!--break-->"
+
+redcarpet:
+  extensions: ["footnotes"]
+
+kramdown:
+  auto_ids: true
+
+pages_list:
+  "About" : ""
+  "Enroll!" : "enroll/index.html"
+  Handbook : "handbook/index.html"
+  "Week 1" : "week_1/index.html"
+  "Week 2" : "week_2/index.html"
+  "Week 3" : "week_3/index.html"
+  "Week 4" : "week_4/index.html"
+  "Week 5" : "week_5/index.html"
+  Sources  : "sources/index.html"
+  License  : "license/index.html"
+  Downloads : "downloads/index.html"
+  Support : "support/index.html"
+  Contacts : "contacts/index.html"
+
+

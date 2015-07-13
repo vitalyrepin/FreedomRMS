@@ -1,0 +1,31 @@
+---
+title: "Sources & Tools"
+layout: page
+permalink: sources/index.html
+summary: "Road to the Free Digital Society. Sources of the course materials and tools used to create the course."
+tags: [e-learning, fsfe,  free software, open source, fsf, stallman, course]
+---
+
+
+== Sources ==
+[{{ site.baseurl }}/public/images/Source-code-icon.png]
+
+- The sources of this web site, captions and subtitles, handbook can be found [here https://github.com/vitalyrepin/FreedomRMS/].  Feel free to re-use them for your own projects with respect
+to the [Creative Commons licenses {{site.baseurl}}/license/index.html] these materials are distributed under.
+- Video and audio files [download links. {{site.baseurl}}/downloads/index.html]
+
+
+== Tools ==
+[{{site.baseurl}}/public/images/crafty-penguin.png]
+
+The following free tools were used in order to prepare this course:
+
+- [Jekyll  http://jekyllrb.com/] to build this web site
+- [txt2tags http://txt2tags.org/], [LaTeX http://www.latex-project.org/], [LibreOffice Impress https://www.libreoffice.org/discover/impress/] and [Gimp http://www.gimp.org/] to create documents and slides
+- [PGF/TikZ http://en.wikipedia.org/wiki/PGF/TikZ] to draw nice [mindmap http://digitalfree.info/rms/W1/FourFreedomsPatents.pdf]
+- [ffmpeg https://www.ffmpeg.org/] and [Kdenlive https://kdenlive.org/] for video postprocessing
+- [Subtitleeditor http://home.gna.org/subtitleeditor/] to create subtitles
+- [extm3u.pl http://www.splitbrain.org/projects/extm3u.%C2%A0] to create playlists
+- [GNU Make https://www.gnu.org/software/make/] to put it all together
+- [Vim http://www.vim.org/about.php] was used as an editor ( sorry, rms! [Emacs http://www.gnu.org/software/emacs/] is great editor too, everybody knows  :-) )
+

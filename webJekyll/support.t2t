@@ -1,0 +1,71 @@
+---
+title: "Support and Credits"
+layout: page
+permalink: support/index.html
+summary: "Road to the Free Digital Society. Support and Credits. Your help is needed to imrpve our course."
+tags: [e-learning, fsfe,  free software, open source, fsf, stallman, course]
+---
+
+
+== Credits ==
+[{{site.baseurl}}/public/images/snowman.png]
+
+This course would not exist without support of certain people and organizations.
+
+=== Companies ===
+
+- [Eliademy http://en.wikipedia.org/wiki/Eliademy] made a huge technical and organizational contribution. It would not be possible to make video recordings without their assistance with equipment
+and travel arrangements.
+
+
+=== Individuals ===
+
+- [Richard M. Stallman http://en.wikipedia.org/wiki/Richard_Stallman], Founder of FSF. It is 100% clear that this course would not exist without him and his very active and professional contribution.
+- [Sotiris Makrygiannis http://ubforum2013.teamwork.fr/docs/Sotiris_Makrygiannis.pdf], Eliademy co-founder & CEO. He has initiated the whole project and provided outstanding support (from Eliademy side and also as a person) to make it happen.
+- [Tuomo Ryynänen http://piraattipuolue.fi/tuomo-ryynanen] A lot of thanks to Tuomo and his family for providing a space for filming the videos and their warm and patient attitude to the restless guests.
+- Pasi Husso for helping with producing videos, creating most of the slides and music theme for the course.
+
+
+== Your support is needed ==
+[{{site.baseurl}}/public/images/barretr-Lifesaver.png]
+
+We need help in the following areas:
+
+- Translations and subtitles
+- Spreading the world about this course
+- Launching this course in the online educational platforms you have access to
+
+
+=== Translations and subtitles ===
+
+The course currently has no translations and very limited subtitles support (only in Introduction video).
+
+The project is started in order to facilitate work on subtitles and translations: https://github.com/vitalyrepin/FreedomRMS/tree/master/subtitles
+
+By participating in this project you will:
+
+- Improve your English skills and understanding of the subject (Free Digital Society)
+- Get a real experience on working with a free software which can be useful for your daily tasks
+- Get your line in the "Credits" section of this page
+
+
+Clone git repo, find untranslated and/or unscripted videos and start your journey!
+
+
+=== Spreading the world about this course ===
+
+More people are aware of this course, more chances they will take it and will become educated in the subject this course is dedicated to - Free Digital Society.
+We need your help in order to spread the information about this course!
+
+
+=== Bringing this course to the new platforms ===
+
+The course content is licensed under Creative Commons license and can be freely redistributed (even for commercial purposes. Because freedom is not about price at all).
+More students have access to this course (through the local universities or online platforms), more chances humanity goes on the road to the Free Digital Society and not the opposite.
+
+Currently we are working on making this course available in the [Common Cartridge http://en.wikipedia.org/wiki/IMS_Global#Common_Cartridge] format which will make it super easy to import the
+course content to the [LMS http://en.wikipedia.org/wiki/Learning_management_system] you use.
+
+== Contacts ==
+
+My contacts can be found [here ../contacts/index.html].
