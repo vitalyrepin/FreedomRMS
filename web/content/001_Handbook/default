@@ -1,0 +1,39 @@
+page_format=txt2tags
+page_template=template
+
+page_title=Course handbook
+page_description=Order your copy of course handbook
+page_header2=Order your course handbook!
+page_header1=Road to the Free Digital Society
+page_keywords=e-learning, fsfe,  free software, open source, fsf, stallman, course, handbook
+
+<<<<< content section 1 >>>>>
+
+== Order course handbook ==
+[../include/images/book-cover.png]
+
+
+== Order link ==
+
+[Click to order! Price is only 10 USD. https://www.createspace.com/5534609]
+
+== Contents ==
+'''
+<video width="320" height="240" controls>
+  <source src="http://digitalfree.info/rms/Book/CourseHandbok.ogv" type="video/ogg">
+<a href="http://digitalfree.info/rms/Book/CourseHandbok.ogv">Download video.</a>
+</video>
+'''
+
+
+Course handbook contains:
+
+- Briefs of all the lectures
+- Quizzes and answers to them
+- List of all abbreviations used in the course
+- Alphabetical index of the key course concepts
+
+
+It will be useful for you during the course and after the course is over. Handbook can be used to support your learning and as a reference book to navigate through the course concepts.
+
+
